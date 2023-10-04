@@ -9,7 +9,7 @@ const Header = () => {
 
 
   return (
-    <Container>
+    
       <div className='header d-flex justify-content-between align-items-center'>
         <div className='d-flex'>
           <div className='header__logo'>
@@ -48,7 +48,7 @@ const Header = () => {
           <NavLink className="header__right__link">Kirish+</NavLink>
         </div>
       </div>
-    </Container>
+   
   )
 }
 
