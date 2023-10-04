@@ -1,0 +1,86 @@
+.team {
+    padding-top: 24px;
+
+    border-top: 1px solid #ccc;
+    margin-top: 200px;
+    position: relative;
+    &__title {
+        margin-left: 30%;
+
+        &>p {
+
+            color: var(--Daminant, #2E3038);
+            max-width: 452px;
+            text-align: start;
+            /* H1-Heavy */
+            font-family: SF Pro Display;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 52px;
+            /* 130% */
+            text-transform: uppercase;
+        }
+    }
+
+    &__items {
+        margin-top: 100px;
+        &__profile {
+            text-align: start;
+            margin-left: 80px;
+            &>img {
+
+                width: 240px;
+                height: 240px;
+                border-radius: 120px;
+                background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+            }
+
+            &>p {
+                margin-top: 14px;
+                border-left: 1px solid #ccc;
+                padding-left: 20px;
+                color: var(--text-2, #56585E);
+                font-family: Michroma;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 20px;
+                /* 125% */
+                text-transform: capitalize;
+            }
+
+            &>span {
+                padding-left: 20px;
+                border-left: 1px solid #ccc;
+
+
+                color: var(--descropion, #828388);
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                /* 150% */
+                text-transform: capitalize;
+            }
+        }
+    }
+}
+
+.iconButton {
+    // margin-left: auto;
+    padding: 8px 32px;
+    border-radius: 20px;
+    border: 1px solid #CCC;
+    background: #FFF;
+    color: var(--Kok, #184AFB);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.16px;
+    text-transform: capitalize;
+}

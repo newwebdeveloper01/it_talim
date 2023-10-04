@@ -1,0 +1,37 @@
+.news{
+    text-align: start;
+    position: relative;
+    margin-top: 80px;
+    &::after{
+        position: absolute;
+        width: 750px;
+height: 460px;
+flex-shrink: 0;
+top: 0;
+left: -800px;
+        content: "";
+        background: no-repeat url(../../assets/Maqadimiz2.png);
+        background-size: contain;
+
+    }
+    &__title{
+        max-width: 287px;
+        color: var(--Daminant, #2E3038);
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 52px; /* 130% */
+text-transform: uppercase;
+margin-bottom: 32px;
+    }
+    &__info{
+        max-width: 408px;
+        color: var(--descropion, #828388);
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+    }
+}

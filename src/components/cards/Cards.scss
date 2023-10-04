@@ -1,0 +1,14 @@
+.card-texts{
+    text-align: start;
+    color: rgba(46, 48, 56, 0.60);
+font-family: Michroma;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+.card{
+    border-bottom: 1px  solid #ccc !important;
+    --bs-card-border-color: 0; 
+    --bs-card-border-radius:0;
+}

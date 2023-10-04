@@ -1,0 +1,131 @@
+.education {
+    &__baner {
+        position: relative;
+
+        &::after {
+            position: absolute;
+            content: '';
+            background: no-repeat url(../../assets/photo11.png);
+            width: 396px;
+            height: 460px;
+            flex-shrink: 0;
+            bottom: 0;
+            left: 50%;
+        }
+
+        margin-top: 80px;
+        text-align: start;
+        padding: 60px;
+        border-radius: 12px;
+        background: #F5F5F5;
+
+        &__title {
+            margin-bottom: 40px;
+            width: 392px;
+            color: #333;
+
+            font-family: Poppins;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 52px;
+            /* 130% */
+            text-transform: uppercase;
+        }
+
+        &__department {
+
+            color: #333;
+            font-family: Michroma;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 40px;
+            /* 175% */
+            margin-bottom: 120px;
+        }
+
+        &__link {
+            margin-right: auto;
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            /* 150% */
+            letter-spacing: 0.16px;
+            text-transform: capitalize;
+            padding: 8px 32px;
+            border-radius: 20px;
+            background: #184AFB;
+        }
+    }
+
+    &__strategiya {
+        margin-top: 120px;
+        &__title {
+            text-align: start;
+            color: var(--Daminant, #2E3038);
+
+            font-family: Poppins;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 44px;
+            /* 137.5% */
+            text-transform: uppercase;
+        }
+
+        &__card {
+            text-align: start;
+        padding: 60px;
+        height: 350px;
+        border-radius: 12px;
+border: 1px solid #CCC;
+
+            &__left{
+
+
+                &__title {
+
+                    width: 432px;
+                    color: var(--Daminant, #2E3038);
+
+                    font-family: Michroma;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 32px;
+                    /* 133.333% */
+                    text-transform: uppercase;
+                    margin-bottom: 20px;
+                }
+
+                
+
+            }
+        }
+    }
+}
+.info{
+    width: 506px;
+    color: var(--descropion, #828388);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+margin-bottom: auto;
+}
+.edication__strategiya__card__left__link{
+    display: flex;
+    margin-top: 100px;
+    width:130px;
+    padding: 8px 32px;
+                    border-radius: 20px;
+                    border: 1px solid #CCC;
+}
+.edication__strategiya__card__right{
+  margin-left: auto;  
+}

@@ -1,0 +1,211 @@
+.statistika {
+    margin-top: 120px;
+    text-align: start;
+
+    &__title {
+        &>p {
+            max-width: 453px;
+        }
+
+        color: var(--Daminant, #2E3038);
+
+        font-family: Poppins;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 52px;
+        /* 130% */
+        text-transform: uppercase;
+        position: relative;
+        width: 987px;
+        height: 460px;
+
+        &::before {
+            margin-top: 180px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            content: "";
+            background: no-repeat url(../../assets/statistika.png);
+            background-size: contain;
+            width: 900px;
+            height: 460px;
+            flex-shrink: 0;
+        }
+    }
+
+    &__info {
+        margin-top: 250px;
+
+        &__item {
+            margin-right: 10%;
+
+            &:nth-child(2) {
+                border-left: 1px solid #ccc;
+                border-right: 1px solid #ccc;
+                padding: 0 60px 0 30px;
+            }
+
+            &>p {
+                margin-bottom: 60px;
+                color: #184AFB;
+                font-family: Michroma;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 72px;
+                /* 180% */
+                text-transform: uppercase;
+            }
+
+            &>span {
+                color: #333;
+                font-family: Michroma;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 28px;
+                /* 175% */
+                text-transform: capitalize;
+            }
+        }
+
+    }
+
+    &__cards {
+        margin-top: 120px;
+        position: relative;
+
+        &__1 {
+            padding: 160px 220px;
+            margin-right: 20px;
+            border: 1px solid #ccc;
+
+            &::before {
+
+                position: absolute;
+                content: "";
+                background: no-repeat url(../../assets/edu10.png);
+                background-size: contain;
+                width: 236px;
+                height: 200px;
+                flex-shrink: 0;
+                right: 15%;
+                top: 20%;
+            }
+        }
+
+        &__2 {
+            padding: 160px 220px;
+            border: 1px solid #ccc;
+
+            &::after {
+                position: absolute;
+                content: "";
+                background: no-repeat url(../../assets/edu10.png);
+                background-size: contain;
+                width: 236px;
+                height: 200px;
+                flex-shrink: 0;
+                right: 65%;
+                top: 20%;
+            }
+        }
+    }
+
+    &__dec {
+        margin-top: 40px;
+
+        &__button {
+            padding: 8px 52px;
+            border-radius: 20px;
+            border: 1px solid #CCC;
+            background: #FFF;
+        }
+
+        &>p {
+            max-width: 519px;
+            color: var(--descropion, #828388);
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            /* 150% */
+        }
+    }
+    &__actions{
+        padding-top: 24px;
+  border-top: 1px solid #ccc;
+  margin-top: 200px;
+  & >span {
+    color: var(--Daminant, #2E3038);
+
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 52px; /* 162.5% */
+text-transform: capitalize;
+  }
+  & > p{
+    margin-top: 20px;
+    max-width: 745px;
+    color: #5A5C72;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+  }
+    }
+    &__startup{
+        padding-top: 120px;
+        border-top: 1px solid #ccc;
+        margin-top: 40px;
+        &__item{
+            width: 100%;
+            &__img{
+                & > svg{
+
+                    width: 210px;
+                    height: 160px;
+                }
+                border-radius: 12px;
+                padding: 28px 40px;
+                margin-right: 12px;
+                background: #F5F5F5;
+            }
+            &__info{
+            width: 100%;
+
+                border-top: 1px solid #ccc;
+                padding-top:20px ;
+                & > p{
+                    margin-bottom: 50px;
+                    max-width: 518px;
+                    color: #2E3038;
+font-family: Michroma;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.14px;
+text-transform: capitalize;
+                }
+                & > a{
+                     width: 16px !important;
+                    height: 16px !important;
+                }
+                &__link{
+                   
+                    padding: 8px 32px;
+                    border-radius: 20px;
+border: 1px solid #CCC;
+background: #FFF;
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,651 @@
+.main1 {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    background: no-repeat url(../../assets/1.png);
+    background-size: contain;
+    width: 1220px;
+    height: 540px;
+    flex-shrink: 0;
+    top: 200px;
+  }
+
+  margin-top: 150px;
+
+  & > p {
+    color: #2e3038;
+
+    font-family: SF Pro Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    /* 125% */
+    text-transform: uppercase;
+    max-width: 523px;
+  }
+
+  & > span {
+    max-width: 372px;
+    margin-right: 10%;
+    color: var(--descropion, #828388);
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+  }
+}
+
+.about {
+  justify-content: space-between;
+  padding-top: 24px;
+  border-top: 1px solid #ccc;
+  margin-top: 800px;
+  position: relative;
+
+  &__log {
+    & > p {
+      margin-left: 20px;
+      color: var(--text-2, #56585e);
+      font-family: Michroma;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      /* 150% */
+      text-transform: capitalize;
+    }
+  }
+
+  &__info {
+    max-width: 420px;
+    text-align: start;
+
+    & > span {
+      margin-bottom: 16px;
+      color: var(--Daminant, #2e3038);
+
+      /* H1-Heavy */
+      font-family: SF Pro Display;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 52px;
+      /* 130% */
+      text-transform: uppercase;
+    }
+
+    & > p {
+      margin-bottom: 50px;
+
+      color: var(--descropion, #828388);
+      font-family: SF Pro Display;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      /* 150% */
+    }
+
+    &__link {
+      color: var(--Kok, #184afb);
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      /* 150% */
+      letter-spacing: 0.16px;
+      text-transform: capitalize;
+      padding: 8px 32px;
+      border-radius: 20px;
+      border: 1px solid #ccc;
+      background: #fff;
+    }
+  }
+
+  &__img {
+    position: absolute;
+    border: 1px solid #ccc;
+    width: 432px;
+    height: 400px;
+    right: 0;
+
+    &::before {
+      position: absolute;
+      content: "";
+      background: no-repeat url(../../assets/edu10.png);
+      background-size: contain;
+      width: 236px;
+      height: 200px;
+      flex-shrink: 0;
+      right: 20%;
+      top: 25%;
+    }
+  }
+}
+
+.maqsadlarimiz {
+  justify-content: space-between;
+  padding-top: 24px;
+
+  border-top: 1px solid #ccc;
+  margin-top: 200px;
+  position: relative;
+
+  &__log {
+    & > p {
+      margin-left: 20px;
+      color: var(--text-2, #56585e);
+      font-family: Michroma;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      /* 150% */
+      text-transform: capitalize;
+    }
+  }
+
+  &__title {
+    color: var(--Daminant, #2e3038);
+    max-width: 520px;
+    margin: auto;
+    text-align: start;
+
+    /* H1-Heavy */
+    font-family: SF Pro Display !important;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 52px;
+    /* 130% */
+    text-transform: uppercase;
+  }
+
+  &__info {
+    margin-top: 70px;
+
+    &__img {
+      position: relative;
+      width: 321px;
+      height: 400px;
+      flex-shrink: 0;
+      border-radius: 8px;
+      background: #f5f5f5;
+
+      &::before {
+        content: "";
+        background: no-repeat url(../../assets/edu2.png);
+        background-size: contain;
+        position: absolute;
+        top: 25%;
+        left: 50px;
+        width: 212.5px;
+        height: 200px;
+        flex-shrink: 0;
+      }
+    }
+
+    &__dec {
+      flex-wrap: wrap;
+      gap: 10px;
+
+      &__item {
+        margin-left: 100px;
+        max-width: 900px;
+        text-align: start;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+
+        & > p {
+          color: #2e3038;
+          font-family: Michroma;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px;
+          /* 171.429% */
+          letter-spacing: 0.14px;
+          text-transform: capitalize;
+        }
+
+        & > a {
+          margin-left: 200px;
+        }
+
+        &__icon {
+          border-radius: 20px;
+          border: 1px solid #ccc;
+          background: #fff;
+          padding: 8px 32px;
+        }
+      }
+    }
+  }
+}
+
+.talim {
+  justify-content: space-between;
+  padding-top: 24px;
+
+  border-top: 1px solid #ccc;
+  margin-top: 200px;
+  position: relative;
+
+  &__title {
+    color: var(--Daminant, #2e3038);
+    max-width: 650px;
+    margin: auto;
+    text-align: start;
+
+    /* H1-Heavy */
+    font-family: SF Pro Display !important;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 52px;
+    /* 130% */
+    text-transform: uppercase;
+  }
+
+  &__card {
+    text-align: start;
+    margin-top: 100px;
+
+    &__title {
+      color: var(--Daminant, #2e3038);
+      margin-bottom: 28px;
+      font-family: Michroma;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      /* 150% */
+      text-transform: uppercase;
+    }
+
+    &__img {
+      width: 200px;
+      height: 200px;
+      flex-shrink: 0;
+      margin-bottom: 28px;
+    }
+
+    &__text {
+      color: rgba(46, 48, 56, 0.6);
+      margin-bottom: 22px;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      /* 150% */
+    }
+
+    &__muted {
+      color: var(--Kok, #184afb);
+
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      /* 150% */
+      letter-spacing: 0.16px;
+      text-transform: capitalize;
+    }
+  }
+}
+
+.card {
+  // width: 432px;
+  height: 460px;
+}
+
+.imkoniyatlar {
+  // justify-content: end;
+  padding-top: 24px;
+
+  border-top: 1px solid #ccc;
+  margin-top: 200px;
+  position: relative;
+
+  &__log {
+    & > p {
+      margin-left: 20px;
+      color: var(--text-2, #56585e);
+      font-family: Michroma;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      /* 150% */
+      text-transform: capitalize;
+    }
+  }
+
+  &__title {
+    color: var(--Daminant, #2e3038);
+    max-width: 650px;
+    margin: auto;
+    text-align: start;
+
+    padding-bottom: 110px;
+    /* H1-Heavy */
+    font-family: SF Pro Display !important;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 52px;
+    /* 130% */
+    text-transform: uppercase;
+  }
+
+  &__cards {
+    flex-wrap: wrap;
+    gap: 80px;
+    &__item {
+      padding-top: 100px;
+      position: relative;
+      width: 432px;
+
+      & > p {
+        &::before {
+          content: "";
+          position: absolute;
+          background: no-repeat url(../../assets/Слой2.png);
+          width: 72px;
+          height: 72px;
+          top: 0;
+          left: 0;
+        }
+        color: rgba(46, 48, 56, 0.6);
+        width: 394px;
+        text-align: start !important;
+        font-family: Michroma;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 150% */
+      }
+    }
+  }
+}
+
+.imkoniyatlar2 {
+  // justify-content: end;
+  padding-top: 24px;
+
+  border-top: 1px solid #ccc;
+  margin-top: 200px;
+  position: relative;
+
+  &__log {
+    & > p {
+      margin-left: 20px;
+      color: var(--text-2, #56585e);
+      font-family: Michroma;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      /* 150% */
+      text-transform: capitalize;
+    }
+  }
+
+  &__title {
+    margin: auto;
+    text-align: start;
+
+    padding-bottom: 110px;
+    max-width: 333px;
+    color: var(--Daminant, #2e3038);
+
+    /* H1-Heavy */
+    font-family: SF Pro Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 52px; /* 130% */
+    text-transform: uppercase;
+  }
+
+  &__cards {
+    flex-wrap: wrap;
+
+    &__item {
+      border-radius: 8px;
+      background: #f5f5f5;
+      margin: 5px;
+      padding: 40px;
+      position: relative;
+      max-width: 600px;
+      height: 320px;
+      flex-shrink: 0;
+      text-align: start;
+      border-radius: 8px;
+
+      &__icon {
+        margin-left: 0px;
+      }
+      &__dec {
+        position: absolute;
+        bottom: 40px;
+        right: 40px;
+        left: 40px;
+
+        & > p {
+          text-align: start;
+          color: var(--text-2, #56585e);
+          max-width: 518px;
+          font-family: Michroma;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px; /* 150% */
+        }
+      }
+    }
+  }
+}
+
+.imkoniyatlar3 {
+  padding-top: 24px;
+
+  border-top: 1px solid #ccc;
+  margin-top: 200px;
+  position: relative;
+
+  &__title {
+    margin: auto;
+    text-align: start;
+
+    padding-bottom: 110px;
+    max-width: 550px;
+    color: var(--Daminant, #2e3038);
+
+    /* H1-Heavy */
+    font-family: SF Pro Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 52px; /* 130% */
+    text-transform: uppercase;
+  }
+  &__cards {
+    flex-wrap: wrap;
+    gap: 20px;
+    &__item {
+        padding: 40px 60px;
+        width: 987px;
+height: 280px;
+flex-shrink: 0;
+border-radius: 8px;
+border: 1px solid #CCC;
+      position: relative;
+      text-align: center;
+      &__img {
+        &::after {
+          content: "";
+          position: absolute;
+          background: no-repeat url(../../assets/edu8.png);
+          width: 200px;
+          height: 200px;
+          top: 15%;
+          left: 4%;
+        }
+      }
+      &__img2 {
+        &::after {
+          content: "";
+          position: absolute;
+          background: no-repeat url(../../assets/offline.png);
+          background-size:contain;
+          width: 200px;
+          height: 200px;
+          top: 15%;
+          left: 4%;
+        }
+      }
+      &__img3 {
+        &::after {
+          content: "";
+          position: absolute;
+          background: no-repeat url(../../assets/edu9.png);
+          background-size:contain;
+
+          width: 200px;
+          height: 200px;
+          top: 15%;
+          left: 4%;
+        }
+      }
+      &__info {
+        text-align: start;
+        margin-left: 20%;
+        & > p {
+            margin-bottom: 12px;
+          color: var(--Daminant, #2e3038);
+          font-family: Michroma;
+          font-size: 16px;
+          font-style: normal;
+          text-align: start;
+          font-weight: 400;
+          line-height: 28px; /* 175% */
+          text-transform: capitalize;
+          max-width: 465px;
+        }
+        &__span {
+            padding-bottom: 46px;
+
+          max-width: 499px !important;
+          color: var(--descropion, #828388) !important;
+          font-family: Poppins !important;
+          font-size: 16px;
+          font-style: normal;
+          text-align: start;
+          font-weight: 400;
+          line-height: 24px !important; /* 150% */
+        }
+        &__link{
+            
+            padding: 8px 32px;
+            border-radius: 20px;
+border: 1px solid #CCC;
+background: #FFF;
+            color: var(--Kok, #184AFB);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.16px;
+text-transform: capitalize;
+        }
+      }
+    }
+  }
+}
+
+.xalqaro{
+    padding-top: 24px;
+
+    border-top: 1px solid #ccc;
+    margin-top: 200px;
+    position: relative;
+    &__title{
+        margin: auto;
+        text-align: start;
+    
+        padding-bottom: 110px;
+        max-width: 800px;
+        color: var(--Daminant, #2e3038);
+    
+        /* H1-Heavy */
+        font-family: SF Pro Display;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 52px; /* 130% */
+        text-transform: uppercase;
+    }
+    &__info{
+        &__img{
+            position: relative;
+            height: 420px;
+            background: no-repeat url(../../assets/woman-wearing-virtual-reality-simulator111111111.png);
+            background-size:contain;
+
+            & > p{
+                position: absolute;
+                z-index: 12 !important;
+                color: var(--Kok, #184AFB);
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px; /* 150% */
+                text-transform: capitalize;
+                width: 246px;
+                text-align: start;
+                left: 70%;
+                top: 10%;
+            }
+           
+        }
+        &__cards{
+            & > div{
+                
+                padding: 20px;
+                position: relative;
+                border-radius: 8px;
+border: 1px solid #CCC;
+background: #FFF;
+height: 185px;
+            }
+            &__link{
+                position: absolute;
+                left: 20;
+                top: 70%;
+            }
+            &  p{
+                color: var(--text-2, #56585E);
+font-family: Michroma;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 126.316% */
+            }
+        }
+
+    }
+
+}
+

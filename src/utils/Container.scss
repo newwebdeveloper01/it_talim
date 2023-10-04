@@ -1,0 +1,28 @@
+.talim{
+    &__log {
+        & > p {
+          margin-left: 20px;
+          color: var(--text-2, #56585e);
+          font-family: Michroma;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px;
+          /* 150% */
+          text-transform: capitalize;
+        }
+      }
+    
+}
+.add__button{
+    color: var(--Kok, #184AFB);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+text-transform: capitalize;
+    padding: 10px 50px;
+    border-radius: 20px;
+background: #F5F5F5;
+}
