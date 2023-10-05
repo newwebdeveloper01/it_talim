@@ -6,14 +6,17 @@ import IMG1 from "../../assets/edu4.png";
 import IMG2 from "../../assets/edu5.png";
 import IMG3 from "../../assets/edu7.png";
 import { IconButton , Sectionlogo ,AddButton } from '../../utils/Container';
+import { useTranslation } from 'react-i18next';
 const Home_main = () => {
+
+  const {t}=useTranslation();
+
   return (
     <>
       <div className='main1 d-flex text-start align-items-center justify-content-between'>
-        <p>BIR BILAN XALQARO DARAJAGACHA</p>{' '}
+        <p>{t("BIR BILAN XALQARO DARAJAGACHA")}</p>
         <span>
-          O‘zbekistonda qizlarni akt sohasiga yana-da kengroq jalb etish va
-          ularning it-ko‘nikmalarini ko'nikmalarini rivojlantirish{' '}
+          {t("O‘zbekistonda qizlarni akt sohasiga yana-da kengroq jalb etish va ularning it-ko‘nikmalarini ko'nikmalarini rivojlantirish")}
         </span>
       </div>
 

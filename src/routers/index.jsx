@@ -7,17 +7,20 @@ import Header from '../components/header/Header'
 import Footer from '../components/footer/Footer'
 import Education from './education/Education'
 import Opportunity from './opportunity/Opportunity'
+import App from './auth/auth'
 
 const AllRoutes = () => {
   return (
     <>
       <Header/>
       <Routes>
+      <Route path='/auth' element={<App/>}/>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/maqsadimiz' element={<Our_goal/>}/>
         <Route path='/talim' element={<Education/>}/>
         <Route path='/imkoniyatlar' element={<Opportunity/>}/>
+
       </Routes>
       <Footer/>
     </>
