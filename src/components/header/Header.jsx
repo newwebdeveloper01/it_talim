@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './Header.scss'
 import LOGO from '../../assets/logo.png'
 // import { Container } from '../../utils/Container'
-import { NavLink, useParams } from 'react-router-dom';
+import { NavLink, useLocation, useParams } from 'react-router-dom';
 import i18n from '../../language/i18next';
 import { useTranslation } from 'react-i18next';
 // import { createLogger } from 'vite';
@@ -10,6 +10,8 @@ import { useTranslation } from 'react-i18next';
 const Header = () => {
   
   const {t}= useTranslation();
+  const location=useLocation();
+
 
   // console.log(t("about"))
   function salom(){
@@ -21,7 +23,8 @@ const Header = () => {
 
   
   return (
-    
+
+    !location.pathname.includes("auth") && (
       <div className='header d-flex justify-content-between align-items-center'>
         <div className='d-flex'>
           <div className='header__logo'>
@@ -60,6 +63,9 @@ const Header = () => {
           <NavLink to="/auth" className="header__right__link">{t("Kirish")}</NavLink>
         </div>
       </div>
+    )
+    
+      
    
   )
 }
