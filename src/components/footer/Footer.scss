@@ -42,7 +42,13 @@ line-height: 28px; /* 175% */
         }
     }
     &__bottom{
+        
         margin-top: 80px;
+        & > a{
+
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+        }
         & > a > div{
             margin-left: 12px;
             padding: 10px 100px;

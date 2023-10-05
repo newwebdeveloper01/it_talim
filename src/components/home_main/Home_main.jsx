@@ -26,7 +26,7 @@ const Home_main = () => {
             O‘zbekistonda qizlarni akt sohasiga yana-da kengroq jalb etish va
             ularning it-ko‘nikmalarini ko'nikmalarini rivojlantirish
           </p>
-          <NavLink className='about__info__link'>Batafsil <FiArrowRight color='#184AFB' /></NavLink>
+          <NavLink to="/about" className='about__info__link'>Batafsil <FiArrowRight color='#184AFB' /></NavLink>
         </div>
         <div className='about__img'></div>
         <div></div>
@@ -47,10 +47,8 @@ const Home_main = () => {
                 IT sohasida faoliyat yuritayotgan davlat va nodavlat <br />{' '}
                 ta'lim muassasalarini qo'llab quvvatlash
               </p>
-              <NavLink>
-                {' '}
+              <NavLink to='/maqsadimiz'>
                 <div className='maqsadlarimiz__info__dec__item__icon '>
-                  {' '}
                   <FiArrowRight color='#184AFB' />
                 </div>
               </NavLink>
@@ -60,10 +58,8 @@ const Home_main = () => {
                 IT sohasida faoliyat yuritayotgan davlat va nodavlat <br />{' '}
                 ta'lim muassasalarini qo'llab quvvatlash
               </p>
-              <NavLink>
-                {' '}
+              <NavLink to='/maqsadimiz'>
                 <div className='maqsadlarimiz__info__dec__item__icon '>
-                  {' '}
                   <FiArrowRight color='#184AFB' />
                 </div>
               </NavLink>
@@ -73,10 +69,8 @@ const Home_main = () => {
                 IT sohasida faoliyat yuritayotgan davlat va nodavlat <br />{' '}
                 ta'lim muassasalarini qo'llab quvvatlash
               </p>
-              <NavLink>
-                {' '}
+              <NavLink to='/maqsadimiz'>
                 <div className='maqsadlarimiz__info__dec__item__icon '>
-                  {' '}
                   <FiArrowRight color='#184AFB' />
                 </div>
               </NavLink>
@@ -86,10 +80,8 @@ const Home_main = () => {
                 IT sohasida faoliyat yuritayotgan davlat va nodavlat <br />{' '}
                 ta'lim muassasalarini qo'llab quvvatlash
               </p>
-              <NavLink>
-                {' '}
+              <NavLink to='/maqsadimiz'>
                 <div className='maqsadlarimiz__info__dec__item__icon '>
-                  {' '}
                   <FiArrowRight color='#184AFB' />
                 </div>
               </NavLink>
@@ -115,7 +107,7 @@ const Home_main = () => {
                  Davlat va nodavlat ta’lim muassasalari bilan hamkorlik qilish
                 </p>
                 <p className='card-text'>
-                  <NavLink className='talim__card__muted'>Batafsil <FiArrowRight color='#184AFB' /> </NavLink>
+                  <NavLink to="/talim" className='talim__card__muted'>Batafsil <FiArrowRight color='#184AFB' /> </NavLink>
                 </p>
               </div>
             </div>
@@ -206,7 +198,7 @@ const Home_main = () => {
           </svg>
           <div className='imkoniyatlar2__cards__item__dec d-flex'>
             <p>IT sohasida faoliyat yuritayotgan davlat va nodavlat ta'lim muassasalarini qo'llabquvvatlash</p>
-            <NavLink><FiArrowRight size={30}/></NavLink>
+            <NavLink to="/imkoniyatlar"><FiArrowRight size={30}/></NavLink>
           </div>
           </div>
 
@@ -225,7 +217,7 @@ const Home_main = () => {
 </svg>
 <div className='imkoniyatlar2__cards__item__dec d-flex'>
   <p>IT sohasida faoliyat yuritayotgan davlat va nodavlat ta'lim muassasalarini qo'llabquvvatlash</p>
-  <NavLink><FiArrowRight size={30}/></NavLink>
+  <NavLink to="/imkoniyatlar"><FiArrowRight size={30}/></NavLink>
 </div>
 </div>
 
@@ -244,7 +236,7 @@ const Home_main = () => {
 </svg>
 <div className='imkoniyatlar2__cards__item__dec d-flex'>
   <p>IT sohasida faoliyat yuritayotgan davlat va nodavlat ta'lim muassasalarini qo'llabquvvatlash</p>
-  <NavLink><FiArrowRight size={30}/></NavLink>
+  <NavLink to="/imkoniyatlar"><FiArrowRight size={30}/></NavLink>
 </div>
 </div>
 
@@ -263,7 +255,7 @@ const Home_main = () => {
 </svg>
 <div className='imkoniyatlar2__cards__item__dec d-flex align-items-center'>
 <p>IT sohasida faoliyat yuritayotgan davlat va nodavlat ta'lim muassasalarini qo'llabquvvatlash</p>
-<NavLink><FiArrowRight size={30}/></NavLink>
+<NavLink to="/imkoniyatlar"><FiArrowRight size={30}/></NavLink>
 </div>
 </div>
 
@@ -287,7 +279,7 @@ const Home_main = () => {
             <div className='imkoniyatlar3__cards__item__info p-3'>
               <p>Zamonaviy teledasturlar orqali yoshlarni AKT sohasiga kengroq jalb qilish</p>
               <p className='imkoniyatlar3__cards__item__info__span'>O‘zbekistonda qizlarni akt sohasiga yana-da kengroq jalb etish va ularning it-ko‘nikmalarini ko'nikmalarini rivojlantirish </p>
-              <IconButton title="Batafsil"  className="imkoniyatlar3__cards__item__info__link" />
+              <IconButton link="imkoniyatlar" title="Batafsil"  className="imkoniyatlar3__cards__item__info__link" />
             </div>
         </div>
         <div className='imkoniyatlar3__cards__item d-flex justify-content-center align-items-center'>
@@ -295,7 +287,7 @@ const Home_main = () => {
             <div className='imkoniyatlar3__cards__item__info p-3'>
               <p>Zamonaviy teledasturlar orqali yoshlarni AKT sohasiga kengroq jalb qilish</p>
               <p className='imkoniyatlar3__cards__item__info__span'>O‘zbekistonda qizlarni akt sohasiga yana-da kengroq jalb etish va ularning it-ko‘nikmalarini ko'nikmalarini rivojlantirish </p>
-              <IconButton title="Batafsil"  className="imkoniyatlar3__cards__item__info__link" />
+              <IconButton link="imkoniyatlar" title="Batafsil"  className="imkoniyatlar3__cards__item__info__link" />
             </div>
         </div>
         <div className='imkoniyatlar3__cards__item d-flex justify-content-center align-items-center'>
@@ -303,7 +295,7 @@ const Home_main = () => {
             <div className='imkoniyatlar3__cards__item__info p-3'>
               <p>Zamonaviy teledasturlar orqali yoshlarni AKT sohasiga kengroq jalb qilish</p>
               <p className='imkoniyatlar3__cards__item__info__span'>O‘zbekistonda qizlarni akt sohasiga yana-da kengroq jalb etish va ularning it-ko‘nikmalarini ko'nikmalarini rivojlantirish </p>
-              <IconButton title="Batafsil"  className="imkoniyatlar3__cards__item__info__link" />
+              <IconButton link="imkoniyatlar" title="Batafsil"  className="imkoniyatlar3__cards__item__info__link" />
             </div>
         </div>
 

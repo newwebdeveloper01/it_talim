@@ -54,6 +54,9 @@ const Statistika = () => {
           </p>
         </div>
         <div className='statistika__startup'>
+          <div className='statistika__startup__title'>
+            <p>Startuplarni qo’llash</p>
+           </div>
           <div className='statistika__startup__item d-flex'>
             <div className='statistika__startup__item__img'>
               <svg
