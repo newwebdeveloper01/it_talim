@@ -84,3 +84,10 @@
     letter-spacing: 0.16px;
     text-transform: capitalize;
 }
+
+@media  only screen and (max-width:420px) {
+    .team{
+        display: none;
+    }
+    
+}

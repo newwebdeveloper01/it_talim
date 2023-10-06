@@ -28,4 +28,7 @@ background: #F5F5F5;
 }
 .container{
   position: relative;
+  max-width: 1216px !important;
+  margin: 0;
+  --bs-gutter-x: 0rem;
 }

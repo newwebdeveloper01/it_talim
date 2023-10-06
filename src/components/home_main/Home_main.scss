@@ -650,3 +650,34 @@ line-height: 24px; /* 126.316% */
 
 }
 
+@media only screen and (max-width:420px) {
+  .main1{
+    display: none !important;
+  }
+.about{
+  display: none !important;
+}
+.maqsadlarimiz{
+  display: none !important;
+}
+.talim{
+  display: none !important;
+}
+.card{
+  display: none !important;
+}
+.imkoniyatlar{
+  display: none !important;
+}
+.imkoniyatlar2{
+  display: none !important;
+}
+.imkoniyatlar3{
+  display: none !important;
+}
+.xalqaro{
+  display: none !important;
+}
+  
+  
+}

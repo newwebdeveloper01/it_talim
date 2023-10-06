@@ -62,3 +62,11 @@ background:#ccc;
         }
     }
 }
+
+
+@media  only screen and (max-width:420px) {
+    .partnyor{
+        display: none;
+    }
+    
+}

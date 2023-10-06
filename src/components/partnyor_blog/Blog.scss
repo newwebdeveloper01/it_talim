@@ -34,3 +34,11 @@ line-height: 24px; /* 150% */
         }
     }
 }
+
+
+@media  only screen and (max-width:420px) {
+    .blog{
+        display: none;
+    }
+    
+}

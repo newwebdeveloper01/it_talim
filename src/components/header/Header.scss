@@ -1,15 +1,22 @@
 .header{
     position: fixed;
+    // flex-wrap: wrap;
     top: 0px;
     // left: 9%;
-    width: 1220px;
+    width: 81%;
     margin: auto;
     z-index: 1000;
     padding-bottom: 15px;
     border-bottom: 1px solid #CCC; 
     background:#FFF;
     padding: 20px 20px;
+    &__div{
+        flex-wrap: nowrap;
+        gap: 200px;
+        width: 100%;    
+    }
     &__nav{
+        display: flex;
         margin-left: 20%;
         list-style: none;
         gap: 20px;
@@ -17,7 +24,7 @@
             text-decoration: none;
         }
        &__link{
-        
+        margin-left: auto;
         color: var(--descropion, #828388);
 font-family: SF Pro Display;
 font-size: 16px;
@@ -27,6 +34,13 @@ line-height: 24px; /* 150% */
        } 
     }
     &__right{
+        margin-left: 10%;
+    padding-bottom: 15px;
+        
+    // border-bottom: 1px solid #CCC; 
+&__bars{
+    display: none;
+}
     &__leng {
         
      & >   select{
@@ -59,10 +73,74 @@ text-transform: capitalize;
     }
 }
 }
+.mobil_nav{
+    display: none;
+}
 
 @media  only screen and (max-width:420px) {
     .header{
-        display: none !important;
+        padding: 10px;
+        font-size: 10px;
+        justify-content: center;
+        &__logo{
+            & > a{
+                & > img{
+                   height: 20px;
+            width: 80px; 
+                }
+            }
+            
+        }
+        &__nav{
+            display:none;
+
+        }
+        &__right{
+            margin: 0;
+            padding-bottom: 0;
+            &__bars{
+                display: block;
+            }
+            &__link{
+                display: none;
+                padding: 5px 10px;
+                font-size: 10px;
+            }
+            .active{
+                display: flex !important;
+                
+            }
+            
+
+            &__leng{
+                // display: none;
+                & > select{
+
+                    font-size: 10px !important;
+                    margin-right: 20px;
+                }
+            }
+        }
+        &__div{
+            gap: 0;
+        }
+    }
+    .mobil_nav{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100vw;
+        height: 100vh;
+        background:#184AFB;
+        align-items: center;
+        justify-content: center;
+        z-index: 23987987;
+        & > svg{
+            position:absolute;
+            top: 1%;
+            right: 2%;
+            
+        }
     }
     
 }
