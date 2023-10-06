@@ -7,14 +7,19 @@ import Header from '../components/header/Header'
 import Footer from '../components/footer/Footer'
 import Education from './education/Education'
 import Opportunity from './opportunity/Opportunity'
-import App from './auth/auth'
+import Auth from './auth/auth';
+import Login from './auth/login/Login';
+import Register from "./auth/register/Register"
 
 const AllRoutes = () => {
   return (
     <>
       <Header/>
       <Routes>
-      <Route path='/auth' element={<App/>}/>
+      <Route path="auth" element={<Auth/>}>
+            <Route path="login" element={<Login/>}/>
+            <Route path="register" element={<Register/>}/>
+      </Route>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/maqsadimiz' element={<Our_goal/>}/>

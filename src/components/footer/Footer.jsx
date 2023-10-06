@@ -1,11 +1,12 @@
 import React from 'react'
 import LOGO from  "../../assets/logofooter.png"
 import "./Footer.scss"
+import { useLocation } from 'react-router-dom'
+
 const Footer = () => {
+  const location = useLocation();
   return (
     !location.pathname.includes("auth") && (
-      
-      
     <>
         <div className='footer'>
         <div className='footer__top d-flex justify-content-between'>
