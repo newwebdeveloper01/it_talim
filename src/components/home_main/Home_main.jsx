@@ -187,7 +187,7 @@ const Home_main = () => {
         </div>
         <div className='imkoniyatlar2__cards d-flex justify-content-end'>
         
-        <div className='col-6'>
+        <div className='col-lg-6'>
 
           <div className='imkoniyatlar2__cards__item col'>
           <svg className='imkoniyatlar2__cards__item__icon' xmlns="http://www.w3.org/2000/svg" width="173" height="120" viewBox="0 0 173 120" fill="none">
@@ -206,7 +206,7 @@ const Home_main = () => {
           </div>
 
         </div>
-        <div className='col-6'>
+        <div className='col-lg-6'>
 
 <div className='imkoniyatlar2__cards__item col'>
 <svg className='imkoniyatlar2__cards__item__icon' xmlns="http://www.w3.org/2000/svg" width="173" height="120" viewBox="0 0 173 120" fill="none">
@@ -225,7 +225,7 @@ const Home_main = () => {
 </div>
 
 </div>
- <div className='col-6'>
+ <div className='col-lg-6'>
 
 <div className='imkoniyatlar2__cards__item col'>
 <svg className='imkoniyatlar2__cards__item__icon' xmlns="http://www.w3.org/2000/svg" width="173" height="120" viewBox="0 0 173 120" fill="none">
@@ -244,7 +244,7 @@ const Home_main = () => {
 </div>
 
 </div>
-<div className='col-6'>
+<div className='col-lg-6'>
 
 <div className='imkoniyatlar2__cards__item col'>
 <svg className='imkoniyatlar2__cards__item__icon' xmlns="http://www.w3.org/2000/svg" width="173" height="120" viewBox="0 0 173 120" fill="none">
@@ -313,11 +313,11 @@ const Home_main = () => {
           <p>ta’lim berilga imkoniyatlardan foydalaish kerak</p>
         </div>
         <div className=' xalqaro__info row'>
-          <div className='xalqaro__info__img col-8'>
+          <div className='xalqaro__info__img col-lg-8'>
             <p>Bizga A’zo bo’ling . Biznesingiz va siz dunyo taniydigan darajadasiz</p>
           </div>
 
-          <div className='xalqaro__info__cards col-4'>
+          <div className='xalqaro__info__cards col-lg-4'>
             <div className='col'>
               <div className='d-flex align-items-center justify-content-between'>
               <p>A’zo bo’lish</p>

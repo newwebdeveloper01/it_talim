@@ -10,10 +10,11 @@ import Opportunity from './opportunity/Opportunity'
 import Auth from './auth/auth';
 import Login from './auth/login/Login';
 import Register from "./auth/register/Register"
+import { Container } from '../utils/Container'
 
 const AllRoutes = () => {
   return (
-    <>
+    <Container>
       <Header/>
       <Routes>
       <Route path="auth" element={<Auth/>}>
@@ -28,7 +29,7 @@ const AllRoutes = () => {
 
       </Routes>
       <Footer/>
-    </>
+    </Container>
   )
 }
 

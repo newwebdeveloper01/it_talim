@@ -66,7 +66,22 @@ background:#ccc;
 
 @media  only screen and (max-width:420px) {
     .partnyor{
-        display: none;
+        // display: none;
+        &__title{
+            display: block !important;
+            & > p{
+                padding-bottom: 20px;
+                padding-top: 10px;
+            }
+        }
+        &__link{
+            width: 380px;
+            flex-wrap: nowrap;
+            margin: auto;
+            & > div{
+                width: 110px;
+            }
+        }
     }
     
 }

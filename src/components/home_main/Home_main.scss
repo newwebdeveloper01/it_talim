@@ -362,7 +362,7 @@
           width: 72px;
           height: 72px;
           top: 0;
-          left: 0;
+          left: 0%;
         }
         color: rgba(46, 48, 56, 0.6);
         width: 394px;
@@ -652,31 +652,217 @@ line-height: 24px; /* 126.316% */
 
 @media only screen and (max-width:420px) {
   .main1{
-    display: none !important;
+    // display: none !important;
+    display: block !important;
+    // text-align: center !important;
+
+
+    &::before {
+      position: absolute;
+      content: "";
+      background: no-repeat url(../../assets/1.png);
+      background-size: contain;
+      width: 400px;
+      height: 540px;
+      flex-shrink: 0;
+      top: 200px;
+      // left: 6%;
+    }
+    & > p{
+      font-size: 20px;
+      line-height: 30px;
+      text-align: center;
+      margin-bottom: 40px;
+
+    }
+    & > span{
+      display: block;
+      
+      text-align: center !important;
+      width: 100% !important;
+      // margin-right: 0px !important;
+      margin: auto;
+    }
+
   }
+
 .about{
-  display: none !important;
+  display: block !important;
+margin-top: 300px;
+  // display: none !important;
+  &__info{
+    margin-top: 0px;
+    text-align: center;
+    // display: none;
+  }
+  &__img{
+    // top: 300px;
+    width: 400px;
+    border:0px;
+
+  }
 }
+
+
+
+
 .maqsadlarimiz{
-  display: none !important;
+  // display: none !important;
+  margin-top: 400px !important;
+  &__title{
+    font-size: 25px;
+    text-align: center;
+  }
+  &__info{
+    display:block  !important;
+
+    &__dec{
+      &__item{
+        padding: 10px;
+        margin-left: 10px;
+        & > p{
+          font-size: 10px;
+          line-height: 20px;
+        }
+        & > a{
+          margin-left: 0px;
+        }
+      }
+    }
+    &__img{
+      margin: auto;
+      margin-bottom: 40px;
+    }
+  }
 }
 .talim{
-  display: none !important;
+  // display: none !important;
+  &__title{
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+  }
 }
-.card{
-  display: none !important;
-}
+// .card{
+//   // display: none !important;
+// }
 .imkoniyatlar{
-  display: none !important;
+  // display: none !important;
+  padding: 20px;
+  &__title{
+    font-size: 30px;
+    text-align: center;
+  }
+  &__cards{
+    &__item{
+      & > p{
+        width: 100%;
+      }
+    }
+  }
 }
 .imkoniyatlar2{
-  display: none !important;
+  // display: none !important;
+  &__title{
+    font-size: 30px;
+    text-align: center;
+  }
+  &__cards{
+    text-align: center ;
+    & > div{
+      margin: auto;
+    }
+    &__item{
+      &__dec{
+        bottom:10px;
+        align-items:center;
+        & > p{
+          font-size: 10px
+        }
+      }
+    }
+  }
+
 }
 .imkoniyatlar3{
-  display: none !important;
+  padding: 10px;
+  // display: none !important;
+
+  // &__title {
+  // }
+  &__cards {
+    width: 400px;
+    margin: auto;
+    &__item {
+      display: block !important;
+      width: 350px !important;
+      height: 100%;
+      padding: 20px 20px;
+      margin: auto;
+      &__img {
+        margin-bottom: 20px;
+        position: relative;
+        height: 200px;
+        &::after {
+          height: 100%;
+          // right: 0px;
+        }
+      }
+        &__img2 {
+          margin-bottom: 20px;
+          position: relative;
+          height: 200px;
+          &::after {
+            height: 100%;
+            // right: 0px;
+          }
+         
+      } 
+      &__img3 {
+            margin-bottom: 20px;
+            position: relative;
+            height: 200px;
+            &::after {
+              height: 100%;
+              // right: 0px;
+            }
+          }
+      &__info {
+        // display: none;
+        margin-left: 0px;
+        text-align: center;
+        // & > p {
+        // }
+        // &__span {
+        // }
+        // &__link{
+            
+        // }
+      }
+    }
+  }
+
 }
 .xalqaro{
-  display: none !important;
+  width: 380px;
+  padding: 20px;
+  // display: none !important;
+  &__title{
+    font-size: 30px;
+    text-align: center;
+  }
+  &__info__img{
+    padding: 10px;
+    width: 380px;
+    margin: auto;
+    height: 200px;
+  }
+  &__info__img > p {
+    font-size: 10px;
+    width: 120px;
+    left: 60%;
+    top: 5%;
+  }
 }
   
   

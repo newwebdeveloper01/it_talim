@@ -87,7 +87,14 @@
 
 @media  only screen and (max-width:420px) {
     .team{
-        display: none;
+        // display: none;
+        &__title{
+            display: block !important;
+        }
+        &__items{
+            display: block !important;
+
+        }
     }
     
 }
